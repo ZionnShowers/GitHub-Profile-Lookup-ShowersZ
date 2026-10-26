@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Lookup</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="flex flex-col justify-center items-center p-4">
+    <h1 class="font-bold text-2xl">GitHub Profile Lookup</h1>
+
+    <div class="flex flex-col justify-center items-center">
+        <label for="search-user" class="mt-4 font-bold">Search User:</label>
+        <input id="search-user" class="border px-1 bg-white" type="text">  
+        <button id="search-button" class="mt-4 border px-3 py-1 bg-black text-white">Look up</button>
+    </div>
+
+    <div class="border rounded-xl flex flex-col p-4 mt-8">
+        <p id="name" ></p>
+        <img id="avatar" class="w-24"> </img>
+        <p id="login" ></p>
+        <p id="id" ></p>
+        <p id="node_id" ></p>
+        <p id="url" ></p>
+        <p id="type" ></p>
+        <p id="admin" ></p>
+        <p id="company" ></p>
+        <p id="blog" ></p>
+        <p id="location" ></p>
+        <p id="email" ></p>
+        <p id="hireable" ></p>
+        <p id="bio" ></p>
+        <p id="twitter" ></p>
+        <p id="publicrepos" ></p>
+        <p id="followers" ></p>
+        <p id="following" ></p>
+        <p id="created" ></p>
+        <p id="updated" ></p>
+
+        <p id="error"></p>
+
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
